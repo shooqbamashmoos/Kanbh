@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>Shawk Mohammed Bamashmos-Furniture store</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="Purchase.css"/>
+        <script src="https://kit.fontawesome.com/aa33d87f70.js" crossorigin="anonymous"></script>
+        
+
+        
+    </head>
+    <body>
+        <nav>
+            <label class="logo"><img src="logo2.PNG" width="15%" /></label >
+            <ul>  
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="#">Purchase</a></li>
+                <li><a href="category.html">categories</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
+            </ul>
+        </nav>
+
+        <main>
+ <img src="logo2.PNG" alt=" " width="40%"/> 
+           
+                <form action="connect.php" method="post ">
+                   
+                  <label for="itemcode" class="font"><strong>Item Code:</strong></label><br/>
+                  <input type="text" id="fname" name="itemcode" placeholder="Item Code"><br/>
+
+                  <label for="ItemCatogory" class="font"><strong>Item Catogory:</strong></label><br/>
+                  <select id="s1" name="ItemCatogory">
+                    <option value="su1">Living Room</option>
+                    <option value="su2">Bed Room</option>
+                    <option value="su3">Home/Office</option>
+                    <option value="su4">Sets</option>
+                  </select><br/>
+
+                  <label for="ItemName" class="font"><strong>Item Name:</strong></label><br/>
+                  <input type="text" id="fname" name="ItemName" placeholder="Item Name"><br/>
+              
+                  <label for="ItemPrice" class="font"><strong>Item Price:</strong></label><br/>
+                  <input type="text" id="fname" name="ItemPrice" placeholder="Item Price"><br/>
+              
+                  <label for="Quantity" class="font"><strong>Quantity:</strong></label><br/>
+                  <input type="text" id="fname" name="Quantity" placeholder="Quantity"><br/>
+              
+                  <label for="Address" class="font"><strong>Address:</strong></label><br/>
+                  <input type="text" id="fname" name="Address" placeholder="Address"><br/>
+
+                  <label for="Email" class="font"><strong>Email:</strong></label><br/>
+                  <input type="text" id="fname" name="Email" placeholder="Email"><br/>
+
+                  <label for="Contact Number" class="font"><strong>Contact Number:</strong></label><br/>
+                  <input type="text" id="fname" name="Contact Number" placeholder="Contact Number"><br/>
+              
+                 
+                  <div>
+                    <button type="button" onclick="alert('Your Purchase was successful, will Contact you soon.')">submit</button><br/>
+                  </div>
+                  
+               
+                </form>
+             
+
+     
+        </main>
+
+    </body>
+  </html>

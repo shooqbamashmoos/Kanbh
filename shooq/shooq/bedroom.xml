@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>Shawk Mohammed Bamashmos-Furniture store</title>
+  <meta name="description" content=""/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="catogory2.css"/>
+  <script src="https://kit.fontawesome.com/aa33d87f70.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <label class="logo"><img src="logo2.PNG" width="15%" /></label>
+    <ul>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="Purchase.html">Purchase</a></li>
+      <li><a href="category.html">categories</a></li>
+      <li><a class="active" href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+
+  <main>
+    <img src="logo2.PNG" alt=" " width="30%"/>
+
+    <ul>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="Avatar" style="width:350px;" />;
+
+          </div>
+
+          <div class="flip-card-back">
+            <h1>Emmett Bed</h1>
+            <br />
+            <p>Back of headboard is 100% polyester.
+              Solid pine and engineered wood frame with reinforced joinery.
+            </p>
+            <br />
+            <p>2500$</p>
+            <br />
+            <p>Code Item: #2000</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.wamix.com.eg%2F%3Fproductcat%3Dstandard-bedroom&amp;psig=AOvVaw2Qq40bZw0baBmNTT8t0Oj1&amp;ust=1649243939767000&amp;source=images&amp;cd=vfe&amp;ved=0CAoQjRxqFwoTCNjvpcH7_PYCFQAAAAAdAAAAABAD"
+              alt="Avatar" style="width:300px;"/>
+
+          </div>
+
+          <div class="flip-card-back">
+            <h1>Upholstered King Bed</h1>
+            <br/>
+            <p>Mattress Size : King - 180x200
+              Width (cm) : 191
+              Standard Unit Size : King
+
+            </p>
+            <br/>
+            <p>1190$</p>
+            <br/>
+            <p>Code Item: #2001</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ikea.com%2Fimages%2Fa-vadheim-upholstered-bed-with-vitkloever-bed-linen-stands-i-18d599765b42ee3396abb67b8a245606.jpg&amp;imgrefurl=https%3A%2F%2Fwww.ikea.com%2Fae%2Fen%2Frooms%2Fbedroom%2F&amp;tbnid=5l0zVPFmwXfkGM&amp;vet=12ahUKEwi6x9jK5vz2AhWNQvEDHW4gAJEQMygZegUIARCRAg..i&amp;docid=0Ooj2oxMPuVAmM&amp;w=1400&amp;h=788&amp;q=bed%20room&amp;ved=2ahUKEwi6x9jK5vz2AhWNQvEDHW4gAJEQMygZegUIARCRAg"
+              alt="Avatar" style="width:350px;"/>
+
+          </div>
+
+          <div class="flip-card-back">
+            <h1>Orange bed</h1>
+            <br/>
+            <p>Color complements are wonderful color schemes for bedrooms
+            </p>
+            <br/>
+            <p>1750$</p>
+            <br/>
+            <p>Code Item: #2002</p>
+          </div>
+        </div>
+      </div>
+    </ul>
+    <ul>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80"
+              alt="Avatar" style="width:350px;"/>
+
+          </div>
+
+          <div class="flip-card-back">
+            <h1>Studio King Bed</h1>
+            <br/>
+            <p>Made of engineered wood and highlighted in a soothing tone, this king-sized bed is perfect for elegant
+              and minimalist bedroom spaces.
+            </p>
+            <br/>
+            <p>889$</p>
+            <br/>
+            <p>Code Item: #2003</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="https://images.unsplash.com/photo-1521783988139-89397d761dce?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1325&amp;q=80"
+              alt="Avatar" style="width:350px;"/>
+
+          </div>
+
+          <div class="flip-card-back">
+            <h1>Haven Bed,QUEEN bed</h1>
+            <br/>
+            <p>dimensions: 68"w x 93"d x 45.5"h.
+              Mattress space dimensions: 60"w x 81"d.
+            </p>
+            <br/>
+            <p>2570$</p>
+            <br/>
+            <p>Code Item: #2004</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80"
+              alt="Avatar" style="width:350px;"/>
+
+          </div>
+
+          <div class="flip-card-back">
+            <h1>Halmstad Queen</h1>
+            <br/>
+            <p>Mattress Size : Queen - 150x200
+              Width (cm) : 161
+              Standard Unit Size : Queen
+            </p>
+            <br/>
+            <p>1598$</p>
+            <br/>
+            <p>Code Item: #2005</p>
+          </div>
+        </div>
+      </div>
+    </ul>
+  </main>
+
+
+
+</body>
+
+</html>
